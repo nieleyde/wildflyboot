@@ -41,7 +41,10 @@
 	</properties>
 
 	<build>
-		<finalName>SpringBootBasic</finalName>
+<!--
+        <finalName>SpringBootBasic</finalName>
+-->
+        <finalName>ROOT</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
