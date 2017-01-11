@@ -32,4 +32,11 @@ class HelloController {
 		return "Hi " + name + " !";
 
 	}
+
+    @RequestMapping("hola")
+    public String sayHello(){
+        return ("Hello, SpringBoot on Wildfly");
+    }
+	
+	
 }
